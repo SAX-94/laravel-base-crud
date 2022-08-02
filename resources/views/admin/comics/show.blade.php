@@ -3,7 +3,7 @@
 @section('mainContent')
     <h1>Show Comics</h1>
 
-    <table>
+    <table border="2px">
         <thead>
             <tr>
                 <th>Campo:</th>
@@ -12,8 +12,8 @@
         </thead>
         <tbody>
             @foreach ($comic->toArray() as $key => $value)
-                <tr style="text-align: center; padding: 0px 5px;">
-                    <td>{{ $key }}</td>
+                <tr style="text-align: center;">
+                    <td><b>{{ $key }}</b></td>
                     <td>{{ $value }}</td>
                 </tr>
             @endforeach
