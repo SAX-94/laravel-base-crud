@@ -12,7 +12,7 @@
         </thead>
         <tbody>
             @foreach ($comic->toArray() as $key => $value)
-                <tr>
+                <tr style="text-align: center; padding: 0px 5px;">
                     <td>{{ $key }}</td>
                     <td>{{ $value }}</td>
                 </tr>
