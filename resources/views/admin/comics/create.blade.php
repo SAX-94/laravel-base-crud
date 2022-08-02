@@ -35,7 +35,7 @@
             <input type="text" name="type" id="type">
         </div>
 
-        <button>Save</button>
+        <input type="submit" value="Invia">
     </form>
 
 @endsection
