@@ -3,14 +3,14 @@
 @section('mainContent')
     <h1>Show Comics</h1>
 
-    <table border="2px">
+    <table class="table table.bordered table-striped-columns" border="2px solid black">
         <thead>
             <tr>
-                <th>Campo:</th>
-                <th>Valore</th>
+                <th style="text-align: center;">Campo:</th>
+                <th style="text-align: center;">Valore</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="table-group-divider">
             @foreach ($comic->toArray() as $key => $value)
                 <tr style="text-align: center;">
                     <td><b>{{ $key }}</b></td>
