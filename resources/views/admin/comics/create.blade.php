@@ -28,7 +28,7 @@
         </div>
         <div>
             <label for="sale_date">Sale Date</label>
-            <input type="text" name="sale_date" id="sale_date">
+            <input type="date" name="sale_date" id="sale_date">
         </div>
         <div>
             <label for="type">Type</label>
